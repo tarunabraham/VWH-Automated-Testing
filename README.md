@@ -1,2 +1,2 @@
 # VWH-Automated-Testing
-Virtual Warehouse Automated Tests
+Virtual Warehouse Automated Tests Using Fitnesse 
