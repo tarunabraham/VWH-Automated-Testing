@@ -9,8 +9,8 @@
       <ignores>0</ignores>
       <exceptions>0</exceptions>
     </counts>
-    <date>2016-09-27T17:02:13-07:00</date>
-    <runTimeInMillis>367</runTimeInMillis>
+    <date>2016-09-28T13:27:59-07:00</date>
+    <runTimeInMillis>351</runTimeInMillis>
     <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
 	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
@@ -115,7 +115,7 @@
 		&lt;td colspan="4"&gt;script&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor6"&gt;
-		&lt;td&gt;$var&amp;lt;-[3XlxC]&lt;/td&gt;
+		&lt;td&gt;$var&amp;lt;-[KN4cS]&lt;/td&gt;
 		&lt;td&gt;get random string&lt;/td&gt;
 		&lt;td colspan="2"&gt;5&lt;/td&gt;
 	&lt;/tr&gt;
@@ -123,7 +123,7 @@
 		&lt;td&gt;set test variable&lt;/td&gt;
 		&lt;td&gt;title&lt;/td&gt;
 		&lt;td&gt;with&lt;/td&gt;
-		&lt;td&gt;$var-&gt;[3XlxC]&lt;/td&gt;
+		&lt;td&gt;$var-&gt;[KN4cS]&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -175,13 +175,13 @@
               </instructionResult>
             <instructionResult>
         <instruction>{id='scriptTable_3_0', instruction='callAndAssign', symbolName='var', instanceName='scriptTableActor', methodName='getRandomString', args=[5]}</instruction>
-        <slimResult>$var&lt;-[3XlxC]</slimResult>
+        <slimResult>$var&lt;-[KN4cS]</slimResult>
                 <expectation>
                     <instructionId>scriptTable_3_0</instructionId>
                     <col>0</col>
                               <row>1</row>
                     <type>SymbolAssignmentExpectation</type>
-                                        <evaluationMessage>$var&lt;-[3XlxC]</evaluationMessage>
+                                        <evaluationMessage>$var&lt;-[KN4cS]</evaluationMessage>
                   </expectation>
               </instructionResult>
             <instructionResult>
@@ -202,6 +202,6 @@
     <ignores>0</ignores>
     <exceptions>0</exceptions>
   </finalCounts>
-  <totalRunTimeInMillis>367</totalRunTimeInMillis>
+  <totalRunTimeInMillis>351</totalRunTimeInMillis>
 </testResults>
 

@@ -1,0 +1,25 @@
+!*** Initialization
+This table opens a new instance of the browser, navigates to Appian, and logs in the user.
+| script                                              |
+|setup with browser|CHROME        |
+|login with username                   |tarun.abraham|
+***!
+
+!*** Open Record and Add Escalation Comment
+| script                                          |
+|click on menu       |Records                      |
+|click on record type|Engineering Stock            |
+|click on record     |716-254628-011               |
+|populate field |[1] | in section | Comment & Escalation Info | with | Escalation Comment 7|
+|click on button |Comment|
+
+
+***!
+
+
+!*** Log out and tear down
+This table logs out of Appian and closes the browser.
+|script                       |
+|logout                       |
+|tear down |
+***!

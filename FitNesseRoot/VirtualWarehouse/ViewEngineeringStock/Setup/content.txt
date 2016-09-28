@@ -1,6 +1,0 @@
-!*** Initialization
-This table opens a new instance of the Firefox browser, navigates to Appian, and logs in
-!| script                                              |
-|setup with browser|CHROME        |
-|login with username                   |Administrator|
-***!
