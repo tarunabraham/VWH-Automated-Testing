@@ -1,0 +1,6 @@
+!*** Verify Newly Created Record
+!| script                                          |
+|click on menu       |Records                      |
+|click on record type|Engineering Stock              |
+|verify record |716-254628-011| is present |
+***!
