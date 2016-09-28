@@ -33,3 +33,9 @@ Default URL should include http or https and /suite (e.g. '''!-https://forum.app
 !|scenario                             |setup for test script                             |
 |setup for test script for browser|${defaultBrowser}|locale|${defaultLocale}|version|${defaultVersion}|url|${defaultURL}|
 ***!
+
+!*** Scenario - Login User into Appian 
+!|scenario                             |login user with text|txtUserId|
+|setup with browser|CHROME        |
+|login with username                   |@txtUserId|
+***!

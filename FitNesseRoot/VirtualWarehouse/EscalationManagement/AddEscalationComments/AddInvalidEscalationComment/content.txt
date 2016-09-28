@@ -1,8 +1,7 @@
 !*** Initialization
 This table opens a new instance of the browser, navigates to Appian, and logs in the user.
 | script                                              |
-|setup with browser|CHROME        |
-|login with username                   |tarun.abraham|
+|login user with text|tarun.abraham|
 ***!
 
 !*** Open Record and Add Escalation Comment
@@ -10,8 +9,9 @@ This table opens a new instance of the browser, navigates to Appian, and logs in
 |click on menu       |Records                      |
 |click on record type|Engineering Stock            |
 |click on record     |716-254628-011               |
-|populate field |[1] | in section | Comment & Escalation Info | with | Escalation Comment 7|
+|populate field |[1] | in section | Comment & Escalation Info | with | Es|
 |click on button |Comment|
+|verify section |  Comment & Escalation Info | contains validation message | Comment length should be greater than 6 characters and less than 800 characters. |
 
 
 ***!
