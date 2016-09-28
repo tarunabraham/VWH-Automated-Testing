@@ -1,0 +1,25 @@
+!*** Initialization
+This table opens a new instance of the browser, navigates to Appian, and logs in the user.
+| script                                              |
+|login user with text|tarun.abraham|
+***!
+
+!*** Open Record and Add Escalation Comment
+| script                                          |
+|click on menu       |Records                      |
+|click on record type|Engineering Stock            |
+|click on record     |716-254628-011               |
+|populate field |[1] | in section | Comment & Escalation Info | with |VcgA6eO1ZuSz5ueuovKIP0mVB50Km1DCFS4oySqVuBeqX86zxcfX4fUQmgJzZeB7ePoB2Gwnfoh73s99veaiZESawFh2sxE7funl0GMaato2Z8YTyQzEnb4xx4v7xz8sxR8GvZQlX3zmK8LJQX6DuZ75njk7MvaplAFGRkHWFgXHAkjGtCE126lPUnujropFgR3n4xn13vpmu34Vz44cpVTGmUofX622RDehg96IIzXj1QXyjEZnHijvugYlyfi98ui5SJceT0Pu9vVQRmB6jvlfbI1QLhFj9rG2sXuXm4omzkqqOFG89GE4xMnhLsCpRtzNZAv7tb6jmkFIrIV2oOIicuU2hSXTJ3QHWS4Ely1BN6IXo9GFXLwaForaGk30NrCfT4VNHOeggTWA6nKcoSirDc1bAaWYvz72motKCjFWR6Bq1yclln73wCy1xb1L6T6sunDIscRU7Q0g65gwBXDHIefORy4hMTJgXWWNW9bLNDFzrBF91ocAhXiAG73ITcZaOAa9UtcA2L1qk0JGlreWg4rq0xlCoNaYagH3HJEDZu0zKI6UZYjivj8EArx2bSehKZ7VJk3yODbVXNX2EZS6TAv29xT6YwOWRwy6gYtBjpkLi6DXIgPVurQgKovzSMeHZQLCTOwhmOXFszphWiLfOY8jvpVQHguGLyoVkbE3yajcBjTsTiVuiVvPPNL8Cpb9M1DGV420EH61Jv9v30ijPs4rt5F9Q4tlR2uHe5RaIAFIlk0hIR7xB0ii5HZElKUpRcg5UQynsoCkYijaWpRtPymZ6GlHw|
+|click on button |Comment|
+|verify section |  Comment & Escalation Info | contains validation message | Comment length should be greater than 6 characters and less than 800 characters. |
+
+
+***!
+
+
+!*** Log out and tear down
+This table logs out of Appian and closes the browser.
+|script                       |
+|logout                       |
+|tear down |
+***!

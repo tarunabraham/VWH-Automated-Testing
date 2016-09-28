@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>VirtualWarehouse.EscalationManagement</rootPath>
+  <pageHistoryReference>
+    <name>VirtualWarehouse.SuiteSetUp</name>
+    <date>2016-09-28T15:31:50-07:00</date>
+    <pageHistoryLink>VirtualWarehouse.SuiteSetUp?pageHistory&amp;resultDate=20160928153150</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>356</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddInvalidEscalationComment</name>
+    <date>2016-09-28T15:31:50-07:00</date>
+    <pageHistoryLink>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddInvalidEscalationComment?pageHistory&amp;resultDate=20160928153150</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>14121</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddInvalidEscalationCommentUpperLimit</name>
+    <date>2016-09-28T15:32:04-07:00</date>
+    <pageHistoryLink>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddInvalidEscalationCommentUpperLimit?pageHistory&amp;resultDate=20160928153204</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>14767</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddValidEscalationComment</name>
+    <date>2016-09-28T15:32:19-07:00</date>
+    <pageHistoryLink>VirtualWarehouse.EscalationManagement.AddEscalationComments.AddValidEscalationComment?pageHistory&amp;resultDate=20160928153219</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>13802</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Dlog4j.configuration=file:///C:/Appian/Fitness/FitNesseForAppian/log4j.properties -cp C:\Appian\Fitness\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\Appian\Fitness\FitNesseForAppian\lib\accessors-smart-1.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\asm-5.0.3.jar;C:\Appian\Fitness\FitNesseForAppian\lib\bcpkix-jdk15on-1.48.jar;C:\Appian\Fitness\FitNesseForAppian\lib\bcprov-jdk15on-1.48.jar;C:\Appian\Fitness\FitNesseForAppian\lib\cglib-nodep-2.1_3.jar;C:\Appian\Fitness\FitNesseForAppian\lib\commons-codec-1.10.jar;C:\Appian\Fitness\FitNesseForAppian\lib\commons-exec-1.3.jar;C:\Appian\Fitness\FitNesseForAppian\lib\commons-io-2.4.jar;C:\Appian\Fitness\FitNesseForAppian\lib\commons-lang3-3.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\commons-logging-1.2.jar;C:\Appian\Fitness\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\Appian\Fitness\FitNesseForAppian\lib\gson-2.3.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\guava-19.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\httpclient-4.5.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\httpcore-4.4.3.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jackson-annotations-2.4.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jackson-core-2.4.1.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jackson-databind-2.4.1.3.jar;C:\Appian\Fitness\FitNesseForAppian\lib\javax.servlet-api-3.1.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jcip-annotations-1.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jcommander-1.48.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jetty-rc-repacked-5.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jetty-repacked-9.2.13.v20150730.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jna-4.1.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\jna-platform-4.1.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\json-path-2.2.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\json-smart-2.2.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\log4j-1.2.16.jar;C:\Appian\Fitness\FitNesseForAppian\lib\mx4j-tools-3.0.1.jar;C:\Appian\Fitness\FitNesseForAppian\lib\netty-3.5.7.Final.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-api-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-chrome-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-edge-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-firefox-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-ie-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-java-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-leg-rc-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-remote-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-safari-driver-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-server-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\selenium-support-2.53.0.jar;C:\Appian\Fitness\FitNesseForAppian\lib\slf4j-api-1.7.16.jar;C:\Appian\Fitness\FitNesseForAppian\lib\snakeyaml-1.8.jar;C:\Appian\Fitness\FitNesseForAppian\lib\appian\fitnesse-for-appian-1.3.1.jar fitnesse.slim.SlimService 8094</command>
+    <exitCode>0</exitCode>
+    <stdOut>2016-09-28 15:31:55,291 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [tarun.abraham]
+2016-09-28 15:31:55,797 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:31:57,517 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2016-09-28 15:31:58,098 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2016-09-28 15:31:58,972 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [Engineering Stock]
+2016-09-28 15:31:58,988 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [Engineering Stock]
+2016-09-28 15:31:59,854 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [716-254628-011]
+2016-09-28 15:31:59,899 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - CLICK RECORD [716-254628-011]
+2016-09-28 15:32:01,046 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [Es]
+2016-09-28 15:32:02,607 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Comment]
+2016-09-28 15:32:02,645 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [Comment]
+2016-09-28 15:32:03,500 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoSectionValidation  - WAIT FOR SECTION [Comment &amp; Escalation Info] VALIDATIONS [Comment length should be greater than 6 characters and less than 800 characters.]
+2016-09-28 15:32:03,557 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:32:03,570 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOG OUT
+2016-09-28 15:32:08,947 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [tarun.abraham]
+2016-09-28 15:32:09,510 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:32:11,239 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2016-09-28 15:32:11,833 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2016-09-28 15:32:12,711 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [Engineering Stock]
+2016-09-28 15:32:12,753 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [Engineering Stock]
+2016-09-28 15:32:13,627 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [716-254628-011]
+2016-09-28 15:32:13,643 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - CLICK RECORD [716-254628-011]
+2016-09-28 15:32:14,700 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [VcgA6eO1ZuSz5ueuovKIP0mVB50Km1DCFS4oySqVuBeqX86zxcfX4fUQmgJzZeB7ePoB2Gwnfoh73s99veaiZESawFh2sxE7funl0GMaato2Z8YTyQzEnb4xx4v7xz8sxR8GvZQlX3zmK8LJQX6DuZ75njk7MvaplAFGRkHWFgXHAkjGtCE126lPUnujropFgR3n4xn13vpmu34Vz44cpVTGmUofX622RDehg96IIzXj1QXyjEZnHijvugYlyfi98ui5SJceT0Pu9vVQRmB6jvlfbI1QLhFj9rG2sXuXm4omzkqqOFG89GE4xMnhLsCpRtzNZAv7tb6jmkFIrIV2oOIicuU2hSXTJ3QHWS4Ely1BN6IXo9GFXLwaForaGk30NrCfT4VNHOeggTWA6nKcoSirDc1bAaWYvz72motKCjFWR6Bq1yclln73wCy1xb1L6T6sunDIscRU7Q0g65gwBXDHIefORy4hMTJgXWWNW9bLNDFzrBF91ocAhXiAG73ITcZaOAa9UtcA2L1qk0JGlreWg4rq0xlCoNaYagH3HJEDZu0zKI6UZYjivj8EArx2bSehKZ7VJk3yODbVXNX2EZS6TAv29xT6YwOWRwy6gYtBjpkLi6DXIgPVurQgKovzSMeHZQLCTOwhmOXFszphWiLfOY8jvpVQHguGLyoVkbE3yajcBjTsTiVuiVvPPNL8Cpb9M1DGV420EH61Jv9v30ijPs4rt5F9Q4tlR2uHe5RaIAFIlk0hIR7xB0ii5HZElKUpRcg5UQynsoCkYijaWpRtPymZ6GlHw]
+2016-09-28 15:32:17,581 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Comment]
+2016-09-28 15:32:17,599 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [Comment]
+2016-09-28 15:32:18,417 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoSectionValidation  - WAIT FOR SECTION [Comment &amp; Escalation Info] VALIDATIONS [Comment length should be greater than 6 characters and less than 800 characters.]
+2016-09-28 15:32:18,453 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:32:18,469 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOG OUT
+2016-09-28 15:32:23,704 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [tarun.abraham]
+2016-09-28 15:32:24,265 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:32:26,604 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2016-09-28 15:32:26,625 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2016-09-28 15:32:27,518 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [Engineering Stock]
+2016-09-28 15:32:27,555 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [Engineering Stock]
+2016-09-28 15:32:28,406 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [716-254628-011]
+2016-09-28 15:32:28,421 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - CLICK RECORD [716-254628-011]
+2016-09-28 15:32:29,773 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [Escalation Comment 7]
+2016-09-28 15:32:31,361 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Comment]
+2016-09-28 15:32:31,398 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [Comment]
+2016-09-28 15:32:32,251 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 15:32:32,278 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOG OUT
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>3</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>45658</totalRunTimeInMillis>
+</suiteResults>
+

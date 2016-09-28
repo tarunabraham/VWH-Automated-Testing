@@ -10,4 +10,5 @@ This table creates a variable which will be available in all tests by using tv!t
 |script                                       |
 |$var=            |get random string|5        |
 |set test variable|title            |with|$var|
+
 ***!
