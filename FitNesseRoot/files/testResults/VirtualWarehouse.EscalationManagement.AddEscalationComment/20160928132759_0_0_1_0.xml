@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <testResults>
   <FitNesseVersion>v20160515</FitNesseVersion>
-  <rootPath>VirtualWarehouse.ViewEngineeringStock.OpenEngineeringStockRecord</rootPath>
+  <rootPath>VirtualWarehouse.EscalationManagement.AddEscalationComment</rootPath>
     <result>
     <counts>
-      <right>1</right>
+      <right>0</right>
       <wrong>0</wrong>
       <ignores>0</ignores>
       <exceptions>0</exceptions>
     </counts>
-    <date>2016-09-27T17:02:13-07:00</date>
-    <runTimeInMillis>9661</runTimeInMillis>
+    <date>2016-09-28T13:27:59-07:00</date>
+    <runTimeInMillis>14617</runTimeInMillis>
     <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
 	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
@@ -86,9 +86,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-	&lt;p class="title"&gt;Included page: &lt;a href="VirtualWarehouse.ViewEngineeringStock.SetUp"&gt;.VirtualWarehouse.ViewEngineeringStock.SetUp&lt;/a&gt; &lt;a href="VirtualWarehouse.ViewEngineeringStock.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
-	&lt;div&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 	&lt;p class="title"&gt;Initialization&lt;/p&gt;
 	&lt;div&gt;This table opens a new instance of the Firefox browser, navigates to Appian, and logs in&lt;br/&gt;&lt;table&gt;
 	&lt;tr class="slimRowTitle"&gt;
@@ -100,37 +98,61 @@
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor9"&gt;
 		&lt;td&gt;login with username&lt;/td&gt;
-		&lt;td&gt;Administrator&lt;/td&gt;
+		&lt;td&gt;tarun.abraham&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-	&lt;p class="title"&gt;Verify Newly Created Record&lt;/p&gt;
+	&lt;p class="title"&gt;Open Record and Add Escalation Comment&lt;/p&gt;
 	&lt;div&gt;&lt;table&gt;
 	&lt;tr class="slimRowTitle"&gt;
-		&lt;td colspan="3"&gt;script&lt;/td&gt;
+		&lt;td colspan="6"&gt;script&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor0"&gt;
 		&lt;td&gt;click on menu&lt;/td&gt;
-		&lt;td colspan="2"&gt;Records&lt;/td&gt;
+		&lt;td colspan="5"&gt;Records&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor4"&gt;
 		&lt;td&gt;click on record type&lt;/td&gt;
-		&lt;td colspan="2"&gt;Engineering Stock&lt;/td&gt;
+		&lt;td colspan="5"&gt;Engineering Stock&lt;/td&gt;
 	&lt;/tr&gt;
 	&lt;tr class="slimRowColor2"&gt;
-		&lt;td&gt;&lt;span class="pass"&gt;verify record&lt;/span&gt;&lt;/td&gt;
-		&lt;td&gt;716-254628-011&lt;/td&gt;
-		&lt;td&gt;is present&lt;/td&gt;
+		&lt;td&gt;click on record&lt;/td&gt;
+		&lt;td colspan="5"&gt;716-254628-011&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+		&lt;td&gt;in section&lt;/td&gt;
+		&lt;td&gt;Comment &amp; Escalation Info&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Escalation Comment 7&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="5"&gt;Comment&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Log out and tear down&lt;/p&gt;
+	&lt;div&gt;This table logs out of Appian and closes the browser&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;tear down&lt;/td&gt;
 	&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </content>
-    <relativePageName>OpenEngineeringStockRecord</relativePageName>
+    <relativePageName>AddEscalationComment</relativePageName>
             <instructions>
             <instructionResult>
         <instruction>{id='scriptTable_2_0', instruction='call', instanceName='scriptTableActor', methodName='setupWithBrowser', args=[CHROME]}</instruction>
@@ -143,7 +165,7 @@
                                       </expectation>
               </instructionResult>
             <instructionResult>
-        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsername', args=[Administrator]}</instruction>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsername', args=[tarun.abraham]}</instruction>
         <slimResult></slimResult>
                 <expectation>
                     <instructionId>scriptTable_2_1</instructionId>
@@ -173,13 +195,52 @@
                                       </expectation>
               </instructionResult>
             <instructionResult>
-        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='verifyRecordIsPresent', args=[716-254628-011]}</instruction>
-        <slimResult>pass()</slimResult>
+        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecord', args=[716-254628-011]}</instruction>
+        <slimResult></slimResult>
                 <expectation>
-                    <status>pass</status>
                     <instructionId>scriptTable_3_2</instructionId>
                     <col>0</col>
                               <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldInSectionWith', args=[[1], Comment &amp; Escalation Info, Escalation Comment 7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_3</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_4', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Comment]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_4</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_0', instruction='call', instanceName='scriptTableActor', methodName='logout', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_1', instruction='call', instanceName='scriptTableActor', methodName='tearDown', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
                     <type>ScriptActionExpectation</type>
                                       </expectation>
               </instructionResult>
@@ -189,22 +250,28 @@
     <testSystem></testSystem>
     <command></command>
     <exitCode>0</exitCode>
-    <stdOut>2016-09-27 17:02:18,840 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [Administrator]
-2016-09-27 17:02:19,405 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
-2016-09-27 17:02:21,149 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
-2016-09-27 17:02:21,720 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
-2016-09-27 17:02:22,647 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [Engineering Stock]
-2016-09-27 17:02:22,674 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [Engineering Stock]
-2016-09-27 17:02:23,549 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [716-254628-011]
+    <stdOut>2016-09-28 13:28:04,742 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [tarun.abraham]
+2016-09-28 13:28:05,326 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 13:28:07,065 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2016-09-28 13:28:07,618 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2016-09-28 13:28:08,567 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [Engineering Stock]
+2016-09-28 13:28:08,583 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [Engineering Stock]
+2016-09-28 13:28:09,483 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [716-254628-011]
+2016-09-28 13:28:09,526 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - CLICK RECORD [716-254628-011]
+2016-09-28 13:28:10,850 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [Escalation Comment 7]
+2016-09-28 13:28:12,430 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Comment]
+2016-09-28 13:28:12,485 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [Comment]
+2016-09-28 13:28:13,354 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2016-09-28 13:28:13,377 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOG OUT
 </stdOut>
     <stdErr></stdErr>
   </executionLog>
   <finalCounts>
-    <right>1</right>
+    <right>0</right>
     <wrong>0</wrong>
-    <ignores>0</ignores>
+    <ignores>1</ignores>
     <exceptions>0</exceptions>
   </finalCounts>
-  <totalRunTimeInMillis>9661</totalRunTimeInMillis>
+  <totalRunTimeInMillis>14617</totalRunTimeInMillis>
 </testResults>
 

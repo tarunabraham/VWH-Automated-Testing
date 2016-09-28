@@ -64,7 +64,7 @@ Information on creating and calling scenarios is available in the [[!-FitNesse-!
 !2 Suite Set Up
 Place a Suite Set Up at the top level Application Suite which will perform universally required set up steps before all tests. Since most applications have different users logging in for different tests, the login instruction should be declared at the beginning of each test page. 
 
-!img -w 1000 http://files/images/FitNesse-Suite-Setup.png
+!img http://files/images/FitNesse-Suite-Setup.png
 
 This is a standard Suite Set Up which provides: 
 	* the basic initialization steps required for all tests
@@ -78,7 +78,7 @@ In these example variables, Variable1 is a variable retrieved from a Web API, an
 Similar to the Suite Set Up, a global tear down placed at the overall Application level will run after each test. 
 This contains:
 
-!img -w 300 http://files/images/FitNesse-Suite-Teardown.png
+!img http://files/images/FitNesse-Suite-Teardown.png
 
 !anchor nonfitnesseresources
 !2 Non FitNesse Resources
